@@ -163,7 +163,11 @@ while(True):
 
 
     elif state == 6:
-        if symbols_classes.number(ch):
+        if collection_records_lexem[len(collection_records_lexem) - 1].code_lexem == 101 or collection_records_lexem[len(collection_records_lexem) - 1].code_lexem == 100 or collection_records_lexem[len(collection_records_lexem) - 1].code_lexem == 25:
+            add_lex.addLex(collection_records_lexem, current_line, lex, table_tokens.getCode(lex))
+            state = 1
+            hasToRead = False
+        elif symbols_classes.number(ch):
             lex += ch
             ch = next_char.next_char(file)
             state = 3

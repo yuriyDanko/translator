@@ -31,7 +31,7 @@ def dot(symbol):
     return False
 
 def single_character_splitters(symbol):
-    if re.match(r'[,/*:{}]', symbol) or symbol == '\n':
+    if re.match(r'[,/*:{}()]', symbol) or symbol == '\n':
         return True
     return False
 

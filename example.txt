@@ -2,9 +2,12 @@ tiger m1
 {
 int a,n
 float p, b
+b = -2
 int q = -1..1.1-1
 start
 cin >> a
+
+a = (1 + 1) + (-2)
 $zysik: echo << a
 echo << n
 if a>b
