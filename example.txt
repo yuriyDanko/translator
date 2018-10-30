@@ -1,0 +1,15 @@
+tiger m1
+{
+int a,n
+float p, b
+int q = -1..1.1-1
+start
+cin >> a
+$zysik: echo << a
+echo << n
+if a>b
+goto $zysik
+cin >> a
+a = 1
+}
+finish
